@@ -156,7 +156,7 @@ const backupResponses = [
   { questionNumber: 16, votesPositive: 963, votesNegative: 4371 },
   { questionNumber: 17, votesPositive: 2247, votesNegative: 3105 },
   { questionNumber: 18, votesPositive: 783, votesNegative: 4142 },
-  { questionNumber: 19, votesPositive: 3124, votesNegative: 3124 },
+  { questionNumber: 19, votesPositive: 3124, votesNegative: 2030 },
   { questionNumber: 20, votesPositive: 1906, votesNegative: 3122 },
   { questionNumber: 21, votesPositive: 2481, votesNegative: 2824 },
   { questionNumber: 22, votesPositive: 3937, votesNegative: 1083 },
