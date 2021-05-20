@@ -1,0 +1,14 @@
+version: "3"
+services:
+  database:
+    container_name: than-average-db
+    image: postgres:13.2-alpine
+    restart: always
+    environment:
+      TZ: UTC
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: than-average-database
+    volumes:
+      - ./db:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
