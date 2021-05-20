@@ -6,8 +6,7 @@
     "esModuleInterop": true,
     "target": "es6",
     "sourceMap": true,
-    "outDir": "dist",
-    "checkJs": true
+    "outDir": "dist"
   },
   "lib": ["es2015"]
 }

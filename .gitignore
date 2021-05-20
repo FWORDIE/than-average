@@ -3,3 +3,4 @@ raw
 dist
 .env
 demo
+db
