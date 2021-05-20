@@ -331,7 +331,7 @@ const questionDescriptors: QuestionDescriptor[] = [
   },
   {
     questionNumber: 18,
-    questionText: "Do you give more to homeless  people",
+    questionText: "Do you give more to homeless people",
     positiveAnswer: "I give more",
     negativeAnswer: "I give less",
     positiveFormulation: "give more to homeless people",
@@ -468,9 +468,9 @@ const questionDescriptors: QuestionDescriptor[] = [
   {
     questionNumber: 35,
     questionText: "Are you funnier",
-    positiveAnswer: "I'm funnier",
+    positiveAnswer: "I'm more funny",
     negativeAnswer: "I'm less funny",
-    positiveFormulation: "are funnier",
+    positiveFormulation: "are more funny",
     negativeFormulation: "are less funny",
   },
   {
@@ -581,7 +581,7 @@ const questionDescriptors: QuestionDescriptor[] = [
     questionNumber: 49,
     questionText: "Do you have more friends ",
     positiveAnswer: "I have more",
-    negativeAnswer: "I have less",
+    negativeAnswer: "I have fewer",
     positiveFormulation: "have more friends",
     negativeFormulation: "have fewer friends",
   },
