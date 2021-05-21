@@ -79,6 +79,8 @@ dokku postgres:expose database
 dokku postgres:info database
 #Look at the dns entry for the string of form
 [database type]://[username]:[password]@[host]:[port]/[database name]
+```
+
 4. Install pgadmin on your computer https://www.pgadmin.org/download/
 5. Open pgadmin and enter the details username (from step 3), password (from step 3), hostname (backstuff.thanaverage.xyz) and port (from step 2). Click connect
 6. Go to pgadmin -> database -> schema -> public -> tables -> question. Right click -> view/edit data -> all rows.
