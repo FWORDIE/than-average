@@ -57,7 +57,7 @@ Commands:
 ```
 3. Add a remote to your git project locally. This allows you to push your git project to the server
 ```
-git remote add dokku dokku@backstuff.thanaverage.xyz
+git remote add dokku dokku@backstuff.thanaverage.xyz:backend
 ```
 4. Push your changes to the dokku server
 ```
