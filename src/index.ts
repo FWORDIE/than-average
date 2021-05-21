@@ -100,6 +100,13 @@ createConnection()
         answer: "yes" | "no";
       };
 
+      if (!Number.isInteger(answer.questionNumber)) {
+        res.send(
+          `Did not update answer. Question number ${answer.questionNumber} didn't exist`
+        );
+        return;
+      }
+
       questionRepository
         .findOne(answer.questionNumber)
         .then((question) => {
@@ -107,6 +114,11 @@ createConnection()
             question.votesPositive += 1;
           } else if (answer.answer === "no") {
             question.votesNegative += 1;
+          } else {
+            res.send(
+              `Did not update answer. Answer: ${answer.answer} isn't valid`
+            );
+            return;
           }
 
           questionRepository.save(question);
