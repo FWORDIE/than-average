@@ -190,423 +190,709 @@ const backupResponses = [
   { questionNumber: 50, votesPositive: 2347, votesNegative: 2007 },
   { questionNumber: 51, votesPositive: 390, votesNegative: 3957 },
   { questionNumber: 52, votesPositive: 1373, votesNegative: 1384 },
+  {
+    questionNumber: 53,
+    votesPositive: 1,
+    votesNegative: 2
+},
+{
+    questionNumber: 54,
+    votesPositive: 2,
+    votesNegative: 1
+},
+{
+    questionNumber: 55,
+    votesPositive: 1,
+    votesNegative: 2
+},
+{
+    questionNumber: 56,
+    votesPositive: 1,
+    votesNegative: 1
+},
+{
+    questionNumber: 57,
+    votesPositive: 2,
+    votesNegative: 1
+},
+{
+    questionNumber: 58,
+    votesPositive: 1,
+    votesNegative: 2
+},
+{
+    questionNumber: 59,
+    votesPositive: 1,
+    votesNegative: 2
+},
+{
+    questionNumber: 60,
+    votesPositive: 2,
+    votesNegative: 1
+},
+{
+    questionNumber: 61,
+    votesPositive: 1,
+    votesNegative: 1
+},
+{
+    questionNumber: 62,
+    votesPositive: 1,
+    votesNegative: 1
+},
+{
+    questionNumber: 63,
+    votesPositive: 3,
+    votesNegative: 1
+},
+{
+    questionNumber: 64,
+    votesPositive: 3,
+    votesNegative: 1
+},
+{
+    questionNumber: 65,
+    votesPositive: 1,
+    votesNegative: 2
+},
+{
+    questionNumber: 66,
+    votesPositive: 1,
+    votesNegative: 1
+},
+{
+    questionNumber: 67,
+    votesPositive: 1,
+    votesNegative: 2
+},
+{
+    questionNumber: 68,
+    votesPositive: 1,
+    votesNegative: 2
+},
+{
+    questionNumber: 69,
+    votesPositive: 2,
+    votesNegative: 1
+},
+{
+    questionNumber: 70,
+    votesPositive: 1,
+    votesNegative: 2
+},
+{
+    questionNumber: 71,
+    votesPositive: 2,
+    votesNegative: 1
+},
+{
+    questionNumber: 72,
+    votesPositive: 2,
+    votesNegative: 1
+},
+{
+    questionNumber: 73,
+    votesPositive: 2,
+    votesNegative: 1
+},
+{
+    questionNumber: 74,
+    votesPositive: 2,
+    votesNegative: 1
+},
 ];
 
 const questionDescriptors: QuestionDescriptor[] = [
-  {
-    questionNumber: 1,
-    questionText: "Do you walk faster",
-    positiveAnswer: "I'm faster",
-    negativeAnswer: "I'm slower",
-    positiveFormulation: "walk faster",
-    negativeFormulation: "walk slower",
-  },
-  {
-    questionNumber: 2,
-    questionText: "Do you eat healthier food",
-    positiveAnswer: "healthier",
-    negativeAnswer: "less healthy",
-    positiveFormulation: "eat healthier",
-    negativeFormulation: "eat less healthy",
-  },
-  {
-    questionNumber: 3,
-    questionText: "Do you care more about the environment",
-    positiveAnswer: "I care more",
-    negativeAnswer: "I care less",
-    positiveFormulation: "care more about the environment",
-    negativeFormulation: "care less about the environment",
-  },
-  {
-    questionNumber: 4,
-    questionText: "Are you better at keeping your home tidy",
-    positiveAnswer: "I'm better",
-    negativeAnswer: "I'm worse",
-    positiveFormulation: "are better at keeping their home tidy",
-    negativeFormulation: "are worse at keeping their home tidy",
-  },
-  {
-    questionNumber: 5,
-    questionText: "Are you smarter",
-    positiveAnswer: "I'm smarter",
-    negativeAnswer: "I'm less smart ",
-    positiveFormulation: "are smarter",
-    negativeFormulation: "are less smart",
-  },
-  {
-    questionNumber: 6,
-    questionText: "Are your feet looking better",
-    positiveAnswer: "they're better",
-    negativeAnswer: "they're worse",
-    positiveFormulation: "have better looking feet",
-    negativeFormulation: "have worse looking feet",
-  },
-  {
-    questionNumber: 7,
-    questionText: "Are you a better listener",
-    positiveAnswer: "I'm better",
-    negativeAnswer: "I'm worse",
-    positiveFormulation: "are a better listener",
-    negativeFormulation: "are a worse listener",
-  },
-  {
-    questionNumber: 8,
-    questionText: "Are you more privileged",
-    positiveAnswer: "I'm more",
-    negativeAnswer: "I'm less",
-    positiveFormulation: "are more privileged",
-    negativeFormulation: "are less privileged",
-  },
-  {
-    questionNumber: 9,
-    questionText: "Do you smell better",
-    positiveAnswer: "I smell better",
-    negativeAnswer: "I smell worse",
-    positiveFormulation: "smell better",
-    negativeFormulation: "smell worse",
-  },
-  {
-    questionNumber: 10,
-    questionText: "Are you a better communicator",
-    positiveAnswer: "I'm better",
-    negativeAnswer: "I'm worse",
-    positiveFormulation: "are a better communicator",
-    negativeFormulation: "are a worse communicator",
-  },
-  {
-    questionNumber: 11,
-    questionText: "Are you better at washing up dishes",
-    positiveAnswer: "I'm better",
-    negativeAnswer: "I'm worse",
-    positiveFormulation: "are better at washing up",
-    negativeFormulation: "are worse at washing up",
-  },
-  {
-    questionNumber: 12,
-    questionText: "Are you more curious",
-    positiveAnswer: "I'm more",
-    negativeAnswer: "I'm less",
-    positiveFormulation: "are more curious",
-    negativeFormulation: "are less curious",
-  },
-  {
-    questionNumber: 13,
-    questionText: "Are you happier",
-    positiveAnswer: "I'm happier",
-    negativeAnswer: "I'm less happy",
-    positiveFormulation: "are happier",
-    negativeFormulation: "are less happy",
-  },
-  {
-    questionNumber: 14,
-    questionText: "Are you kinder",
-    positiveAnswer: "I'm kinder",
-    negativeAnswer: "I'm less kind",
-    positiveFormulation: "are kinder",
-    negativeFormulation: "are less kind",
-  },
-  {
-    questionNumber: 15,
-    questionText: "Do you have better ideas",
-    positiveAnswer: "they're better",
-    negativeAnswer: "they're worse",
-    positiveFormulation: "have better ideas",
-    negativeFormulation: "have worse ideas",
-  },
-  {
-    questionNumber: 16,
-    questionText: "Are you more conservative",
-    positiveAnswer: "I'm more",
-    negativeAnswer: "I'm less",
-    positiveFormulation: "are more conservative",
-    negativeFormulation: "are less conservative",
-  },
-  {
-    questionNumber: 17,
-    questionText: "Do you complain more",
-    positiveAnswer: "I complain more",
-    negativeAnswer: "I complain less",
-    positiveFormulation: "complain more",
-    negativeFormulation: "complain less",
-  },
-  {
-    questionNumber: 18,
-    questionText: "Do you give more to homeless people",
-    positiveAnswer: "I give more",
-    negativeAnswer: "I give less",
-    positiveFormulation: "give more to homeless people",
-    negativeFormulation: "give less to homeless people",
-  },
-  {
-    questionNumber: 19,
-    questionText: "Do you have a better music taste",
-    positiveAnswer: "It's better",
-    negativeAnswer: "It's worse",
-    positiveFormulation: "have a better music taste",
-    negativeFormulation: "have a worse music taste",
-  },
-  {
-    questionNumber: 20,
-    questionText: "Do you give better gifts",
-    positiveAnswer: "they're better",
-    negativeAnswer: "they're worse",
-    positiveFormulation: "give better gifts",
-    negativeFormulation: "give worse gifts",
-  },
-  {
-    questionNumber: 21,
-    questionText: "Are you a better friend",
-    positiveAnswer: "I'm better",
-    negativeAnswer: "I'm worse",
-    positiveFormulation: "are a better friend",
-    negativeFormulation: "are a worse friend",
-  },
-  {
-    questionNumber: 22,
-    questionText: "Are you more progressive",
-    positiveAnswer: "I'm more",
-    negativeAnswer: "I'm less",
-    positiveFormulation: "are more progressive",
-    negativeFormulation: "are less progressive",
-  },
-  {
-    questionNumber: 23,
-    questionText: "Are you better looking",
-    positiveAnswer: "I'm better",
-    negativeAnswer: "I'm worse",
-    positiveFormulation: "are better looking",
-    negativeFormulation: "are worse looking",
-  },
-  {
-    questionNumber: 24,
-    questionText: "Are you more interesting",
-    positiveAnswer: "I'm more",
-    negativeAnswer: "I'm less",
-    positiveFormulation: "are more interesting",
-    negativeFormulation: "are less interesting",
-  },
-  {
-    questionNumber: 25,
-    questionText: "Are you better at your work",
-    positiveAnswer: "I'm better",
-    negativeAnswer: "I'm worse",
-    positiveFormulation: "are better at their work",
-    negativeFormulation: "are worse at their work",
-  },
-  {
-    questionNumber: 26,
-    questionText: "Are you more ambitious",
-    positiveAnswer: "I'm more",
-    negativeAnswer: "I'm less",
-    positiveFormulation: "are more ambitious",
-    negativeFormulation: "are less ambitious",
-  },
-  {
-    questionNumber: 27,
-    questionText: "Are you more creative",
-    positiveAnswer: "I'm more",
-    negativeAnswer: "I'm less",
-    positiveFormulation: "are more creative",
-    negativeFormulation: "are less creative",
-  },
-  {
-    questionNumber: 28,
-    questionText: "Are you better at sex",
-    positiveAnswer: "I'm better",
-    negativeAnswer: "I'm worse",
-    positiveFormulation: "are better at sex",
-    negativeFormulation: "are worse at sex",
-  },
-  {
-    questionNumber: 29,
-    questionText: "Are you more patient",
-    positiveAnswer: "I'm more",
-    negativeAnswer: "I'm less",
-    positiveFormulation: "are more patient",
-    negativeFormulation: "are less patient",
-  },
-  {
-    questionNumber: 30,
-    questionText: "Do you have better dental hygiene",
-    positiveAnswer: "better",
-    negativeAnswer: "worse",
-    positiveFormulation: "have better dental hygiene",
-    negativeFormulation: "have worse dental hygiene",
-  },
-  {
-    questionNumber: 31,
-    questionText: "Do you procrastinate more",
-    positiveAnswer: "more",
-    negativeAnswer: "less",
-    positiveFormulation: "procrastinate more",
-    negativeFormulation: "procrastinate less",
-  },
-  {
-    questionNumber: 32,
-    questionText: "Are you a better driver",
-    positiveAnswer: "I'm better",
-    negativeAnswer: "I'm worse",
-    positiveFormulation: "are a better driver",
-    negativeFormulation: "are a worse driver",
-  },
-  {
-    questionNumber: 33,
-    questionText: "Did you have a better childhood",
-    positiveAnswer: "it was better",
-    negativeAnswer: "it was worse",
-    positiveFormulation: "had a better childhood",
-    negativeFormulation: "had a worse childhood",
-  },
-  {
-    questionNumber: 34,
-    questionText: "Are you a better hugger",
-    positiveAnswer: "I'm better",
-    negativeAnswer: "I'm worse",
-    positiveFormulation: "are a better hugger",
-    negativeFormulation: "are a worse hugger",
-  },
-  {
-    questionNumber: 35,
-    questionText: "Are you funnier",
-    positiveAnswer: "I'm more funny",
-    negativeAnswer: "I'm less funny",
-    positiveFormulation: "are more funny",
-    negativeFormulation: "are less funny",
-  },
-  {
-    questionNumber: 36,
-    questionText: "Are you better at maths",
-    positiveAnswer: "I'm better",
-    negativeAnswer: "I'm worse",
-    positiveFormulation: "are better at maths",
-    negativeFormulation: "are worse at maths",
-  },
-  {
-    questionNumber: 37,
-    questionText: "Do you spend more time on your phone",
-    positiveAnswer: "more",
-    negativeAnswer: "less",
-    positiveFormulation: "spend more time on their phone",
-    negativeFormulation: "spend less time on their phone",
-  },
-  {
-    questionNumber: 38,
-    questionText: "Are you more narcissistic",
-    positiveAnswer: "I'm more",
-    negativeAnswer: "I'm less",
-    positiveFormulation: "are more narcissistic",
-    negativeFormulation: "are less narcissistic",
-  },
-  {
-    questionNumber: 39,
-    questionText: "Are you more stereotypically your gender",
-    positiveAnswer: "I'm more",
-    negativeAnswer: "I'm less",
-    positiveFormulation: "are more stereotypically their gender",
-    negativeFormulation: "are less stereotypically their gender",
-  },
-  {
-    questionNumber: 40,
-    questionText: "Do you have a better memory",
-    positiveAnswer: "it's better",
-    negativeAnswer: "it's worse",
-    positiveFormulation: "have a better memory",
-    negativeFormulation: "have a worse memory",
-  },
-  {
-    questionNumber: 41,
-    questionText: "Are you more humble",
-    positiveAnswer: "I'm more",
-    negativeAnswer: "I'm less",
-    positiveFormulation: "are more humble",
-    negativeFormulation: "are less humble",
-  },
-  {
-    questionNumber: 42,
-    questionText: "Are you better at cooking",
-    positiveAnswer: "I'm better",
-    negativeAnswer: "I'm worse",
-    positiveFormulation: "are better at cooking",
-    negativeFormulation: "are worse at cooking",
-  },
-  {
-    questionNumber: 43,
-    questionText: "Do you change your bed sheets more",
-    positiveAnswer: "more",
-    negativeAnswer: "less",
-    positiveFormulation: "change their bed sheets more",
-    negativeFormulation: "change their bed sheets less",
-  },
-  {
-    questionNumber: 44,
-    questionText: "Do you have more common sense",
-    positiveAnswer: "I have more",
-    negativeAnswer: "I have less",
-    positiveFormulation: "have more common sense",
-    negativeFormulation: "have less common sense",
-  },
-  {
-    questionNumber: 45,
-    questionText: "Are more confident ",
-    positiveAnswer: "I'm more",
-    negativeAnswer: "I'm less",
-    positiveFormulation: "are more confident",
-    negativeFormulation: "are less confident",
-  },
-  {
-    questionNumber: 46,
-    questionText: "Do you exercise more",
-    positiveAnswer: "more",
-    negativeAnswer: "less",
-    positiveFormulation: "exercise more",
-    negativeFormulation: "exercise less",
-  },
-  {
-    questionNumber: 47,
-    questionText: "Do you read more",
-    positiveAnswer: "more",
-    negativeAnswer: "less",
-    positiveFormulation: "read more",
-    negativeFormulation: "read less",
-  },
-  {
-    questionNumber: 48,
-    questionText: "Do you sleep more",
-    positiveAnswer: "more",
-    negativeAnswer: "less",
-    positiveFormulation: "sleep more",
-    negativeFormulation: "sleep less",
-  },
-  {
-    questionNumber: 49,
-    questionText: "Do you have more friends ",
-    positiveAnswer: "I have more",
-    negativeAnswer: "I have fewer",
-    positiveFormulation: "have more friends",
-    negativeFormulation: "have fewer friends",
-  },
-  {
-    questionNumber: 50,
-    questionText: "Are you healthier",
-    positiveAnswer: "I'm healthier",
-    negativeAnswer: "I'm less healthy",
-    positiveFormulation: "are healthier",
-    negativeFormulation: "are less healthy",
-  },
-  {
-    questionNumber: 51,
-    questionText: "Are you more religious",
-    positiveAnswer: "I'm more",
-    negativeAnswer: "I'm less",
-    positiveFormulation: "are more religious",
-    negativeFormulation: "are less religious",
-  },
-  {
-    questionNumber: 52,
-    questionText: "Are you more optimistic",
-    positiveAnswer: "I'm more",
-    negativeAnswer: "I'm less",
-    positiveFormulation: "are more optimistic",
-    negativeFormulation: "are less optimistic",
-  },
+    {
+        questionNumber: 1,
+        questionText: "Do you walk faster",
+        positiveAnswer: "I'm faster",
+        negativeAnswer: "I'm slower",
+        positiveFormulation: "walk faster",
+        negativeFormulation: "walk slower"
+    },
+    {
+        questionNumber: 2,
+        questionText: "Do you eat healthier food",
+        positiveAnswer: "healthier",
+        negativeAnswer: "less healthy",
+        positiveFormulation: "eat healthier",
+        negativeFormulation: "eat less healthy"
+    },
+    {
+        questionNumber: 3,
+        questionText: "Do you care more about the environment",
+        positiveAnswer: "I care more",
+        negativeAnswer: "I care less",
+        positiveFormulation: "care more about the environment",
+        negativeFormulation: "care less about the environment"
+    },
+    {
+        questionNumber: 4,
+        questionText: "Are you better at keeping your home tidy",
+        positiveAnswer: "I'm better",
+        negativeAnswer: "I'm worse",
+        positiveFormulation: "are better at keeping their home tidy",
+        negativeFormulation: "are worse at keeping their home tidy"
+    },
+    {
+        questionNumber: 5,
+        questionText: "Are you smarter",
+        positiveAnswer: "I'm smarter",
+        negativeAnswer: "I'm less smart ",
+        positiveFormulation: "are smarter",
+        negativeFormulation: "are less smart"
+    },
+    {
+        questionNumber: 6,
+        questionText: "Are your feet better looking",
+        positiveAnswer: "they're better",
+        negativeAnswer: "they're worse",
+        positiveFormulation: "have better looking feet",
+        negativeFormulation: "have worse looking feet"
+    },
+    {
+        questionNumber: 7,
+        questionText: "Are you a better listener",
+        positiveAnswer: "I'm better",
+        negativeAnswer: "I'm worse",
+        positiveFormulation: "are a better listener",
+        negativeFormulation: "are a worse listener"
+    },
+    {
+        questionNumber: 8,
+        questionText: "Are you more privileged",
+        positiveAnswer: "I'm more",
+        negativeAnswer: "I'm less",
+        positiveFormulation: "are more privileged",
+        negativeFormulation: "are less privileged"
+    },
+    {
+        questionNumber: 9,
+        questionText: "Do you smell better",
+        positiveAnswer: "I smell better",
+        negativeAnswer: "I smell worse",
+        positiveFormulation: "smell better",
+        negativeFormulation: "smell worse"
+    },
+    {
+        questionNumber: 10,
+        questionText: "Are you a better communicator",
+        positiveAnswer: "I'm better",
+        negativeAnswer: "I'm worse",
+        positiveFormulation: "are a better communicator",
+        negativeFormulation: "are a worse communicator"
+    },
+    {
+        questionNumber: 11,
+        questionText: "Are you better at washing up dishes",
+        positiveAnswer: "I'm better",
+        negativeAnswer: "I'm worse",
+        positiveFormulation: "are better at washing up",
+        negativeFormulation: "are worse at washing up"
+    },
+    {
+        questionNumber: 12,
+        questionText: "Are you more curious",
+        positiveAnswer: "I'm more",
+        negativeAnswer: "I'm less",
+        positiveFormulation: "are more curious",
+        negativeFormulation: "are less curious"
+    },
+    {
+        questionNumber: 13,
+        questionText: "Are you happier",
+        positiveAnswer: "I'm happier",
+        negativeAnswer: "I'm less happy",
+        positiveFormulation: "are happier",
+        negativeFormulation: "are less happy"
+    },
+    {
+        questionNumber: 14,
+        questionText: "Are you kinder",
+        positiveAnswer: "I'm kinder",
+        negativeAnswer: "I'm less kind",
+        positiveFormulation: "are kinder",
+        negativeFormulation: "are less kind"
+    },
+    {
+        questionNumber: 15,
+        questionText: "Do you have better ideas",
+        positiveAnswer: "they're better",
+        negativeAnswer: "they're worse",
+        positiveFormulation: "have better ideas",
+        negativeFormulation: "have worse ideas"
+    },
+    {
+        questionNumber: 16,
+        questionText: "Are you more conservative",
+        positiveAnswer: "I'm more",
+        negativeAnswer: "I'm less",
+        positiveFormulation: "are more conservative",
+        negativeFormulation: "are less conservative"
+    },
+    {
+        questionNumber: 17,
+        questionText: "Do you complain more",
+        positiveAnswer: "I complain more",
+        negativeAnswer: "I complain less",
+        positiveFormulation: "complain more",
+        negativeFormulation: "complain less"
+    },
+    {
+        questionNumber: 18,
+        questionText: "Do you give more to homeless people",
+        positiveAnswer: "I give more",
+        negativeAnswer: "I give less",
+        positiveFormulation: "give more to homeless people",
+        negativeFormulation: "give less to homeless people"
+    },
+    {
+        questionNumber: 19,
+        questionText: "Do you have a better music taste",
+        positiveAnswer: "It's better",
+        negativeAnswer: "It's worse",
+        positiveFormulation: "have a better music taste",
+        negativeFormulation: "have a worse music taste"
+    },
+    {
+        questionNumber: 20,
+        questionText: "Do you give better gifts",
+        positiveAnswer: "they're better",
+        negativeAnswer: "they're worse",
+        positiveFormulation: "give better gifts",
+        negativeFormulation: "give worse gifts"
+    },
+    {
+        questionNumber: 21,
+        questionText: "Are you a better friend",
+        positiveAnswer: "I'm better",
+        negativeAnswer: "I'm worse",
+        positiveFormulation: "are a better friend",
+        negativeFormulation: "are a worse friend"
+    },
+    {
+        questionNumber: 22,
+        questionText: "Are you more progressive",
+        positiveAnswer: "I'm more",
+        negativeAnswer: "I'm less",
+        positiveFormulation: "are more progressive",
+        negativeFormulation: "are less progressive"
+    },
+    {
+        questionNumber: 23,
+        questionText: "Are you better looking",
+        positiveAnswer: "I'm better",
+        negativeAnswer: "I'm worse",
+        positiveFormulation: "are better looking",
+        negativeFormulation: "are worse looking"
+    },
+    {
+        questionNumber: 24,
+        questionText: "Are you more interesting",
+        positiveAnswer: "I'm more",
+        negativeAnswer: "I'm less",
+        positiveFormulation: "are more interesting",
+        negativeFormulation: "are less interesting"
+    },
+    {
+        questionNumber: 25,
+        questionText: "Are you better at your work",
+        positiveAnswer: "I'm better",
+        negativeAnswer: "I'm worse",
+        positiveFormulation: "are better at their work",
+        negativeFormulation: "are worse at their work"
+    },
+    {
+        questionNumber: 26,
+        questionText: "Are you more ambitious",
+        positiveAnswer: "I'm more",
+        negativeAnswer: "I'm less",
+        positiveFormulation: "are more ambitious",
+        negativeFormulation: "are less ambitious"
+    },
+    {
+        questionNumber: 27,
+        questionText: "Are you more creative",
+        positiveAnswer: "I'm more",
+        negativeAnswer: "I'm less",
+        positiveFormulation: "are more creative",
+        negativeFormulation: "are less creative"
+    },
+    {
+        questionNumber: 28,
+        questionText: "Are you better at sex",
+        positiveAnswer: "I'm better",
+        negativeAnswer: "I'm worse",
+        positiveFormulation: "are better at sex",
+        negativeFormulation: "are worse at sex"
+    },
+    {
+        questionNumber: 29,
+        questionText: "Are you more patient",
+        positiveAnswer: "I'm more",
+        negativeAnswer: "I'm less",
+        positiveFormulation: "are more patient",
+        negativeFormulation: "are less patient"
+    },
+    {
+        questionNumber: 30,
+        questionText: "Do you have better dental hygiene",
+        positiveAnswer: "better",
+        negativeAnswer: "worse",
+        positiveFormulation: "have better dental hygiene",
+        negativeFormulation: "have worse dental hygiene"
+    },
+    {
+        questionNumber: 31,
+        questionText: "Do you procrastinate more",
+        positiveAnswer: "more",
+        negativeAnswer: "less",
+        positiveFormulation: "procrastinate more",
+        negativeFormulation: "procrastinate less"
+    },
+    {
+        questionNumber: 32,
+        questionText: "Are you a better driver",
+        positiveAnswer: "I'm better",
+        negativeAnswer: "I'm worse",
+        positiveFormulation: "are a better driver",
+        negativeFormulation: "are a worse driver"
+    },
+    {
+        questionNumber: 33,
+        questionText: "Did you have a better childhood",
+        positiveAnswer: "it was better",
+        negativeAnswer: "it was worse",
+        positiveFormulation: "had a better childhood",
+        negativeFormulation: "had a worse childhood"
+    },
+    {
+        questionNumber: 34,
+        questionText: "Are you a better hugger",
+        positiveAnswer: "I'm better",
+        negativeAnswer: "I'm worse",
+        positiveFormulation: "are a better hugger",
+        negativeFormulation: "are a worse hugger"
+    },
+    {
+        questionNumber: 35,
+        questionText: "Are you funnier",
+        positiveAnswer: "I'm funnier",
+        negativeAnswer: "I'm less funny",
+        positiveFormulation: "are funnier",
+        negativeFormulation: "are less funny"
+    },
+    {
+        questionNumber: 36,
+        questionText: "Are you better at maths",
+        positiveAnswer: "I'm better",
+        negativeAnswer: "I'm worse",
+        positiveFormulation: "are better at maths",
+        negativeFormulation: "are worse at maths"
+    },
+    {
+        questionNumber: 37,
+        questionText: "Do you spend more time on your phone",
+        positiveAnswer: "more",
+        negativeAnswer: "less",
+        positiveFormulation: "spend more time on their phone",
+        negativeFormulation: "spend less time on their phone"
+    },
+    {
+        questionNumber: 38,
+        questionText: "Are you more narcissistic",
+        positiveAnswer: "I'm more",
+        negativeAnswer: "I'm less",
+        positiveFormulation: "are more narcissistic",
+        negativeFormulation: "are less narcissistic"
+    },
+    {
+        questionNumber: 39,
+        questionText: "Are you more stereotypically your gender",
+        positiveAnswer: "I'm more",
+        negativeAnswer: "I'm less",
+        positiveFormulation: "are more stereotypically their gender",
+        negativeFormulation: "are less stereotypically their gender"
+    },
+    {
+        questionNumber: 40,
+        questionText: "Do you have a better memory",
+        positiveAnswer: "it's better",
+        negativeAnswer: "it's worse",
+        positiveFormulation: "have a better memory",
+        negativeFormulation: "have a worse memory"
+    },
+    {
+        questionNumber: 41,
+        questionText: "Are you more humble",
+        positiveAnswer: "I'm more",
+        negativeAnswer: "I'm less",
+        positiveFormulation: "are more humble",
+        negativeFormulation: "are less humble"
+    },
+    {
+        questionNumber: 42,
+        questionText: "Are you better at cooking",
+        positiveAnswer: "I'm better",
+        negativeAnswer: "I'm worse",
+        positiveFormulation: "are better at cooking",
+        negativeFormulation: "are worse at cooking"
+    },
+    {
+        questionNumber: 43,
+        questionText: "Do you change your bed sheets more",
+        positiveAnswer: "more",
+        negativeAnswer: "less",
+        positiveFormulation: "change their bed sheets more",
+        negativeFormulation: "change their bed sheets less"
+    },
+    {
+        questionNumber: 44,
+        questionText: "Do you have more common sense",
+        positiveAnswer: "I have more",
+        negativeAnswer: "I have less",
+        positiveFormulation: "have more common sense",
+        negativeFormulation: "have less common sense"
+    },
+    {
+        questionNumber: 45,
+        questionText: "Are more confident ",
+        positiveAnswer: "I'm more",
+        negativeAnswer: "I'm less",
+        positiveFormulation: "are more confident",
+        negativeFormulation: "are less confident"
+    },
+    {
+        questionNumber: 46,
+        questionText: "Do you exercise more",
+        positiveAnswer: "more",
+        negativeAnswer: "less",
+        positiveFormulation: "exercise more",
+        negativeFormulation: "exercise less"
+    },
+    {
+        questionNumber: 47,
+        questionText: "Do you read more",
+        positiveAnswer: "more",
+        negativeAnswer: "less",
+        positiveFormulation: "read more",
+        negativeFormulation: "read less"
+    },
+    {
+        questionNumber: 48,
+        questionText: "Do you sleep more",
+        positiveAnswer: "more",
+        negativeAnswer: "less",
+        positiveFormulation: "sleep more",
+        negativeFormulation: "sleep less"
+    },
+    {
+        questionNumber: 49,
+        questionText: "Do you have more friends ",
+        positiveAnswer: "I have more",
+        negativeAnswer: "I have fewer",
+        positiveFormulation: "have more friends",
+        negativeFormulation: "have fewer friends"
+    },
+    {
+        questionNumber: 50,
+        questionText: "Are you healthier",
+        positiveAnswer: "I'm healthier",
+        negativeAnswer: "I'm less healthy",
+        positiveFormulation: "are healthier",
+        negativeFormulation: "are less healthy"
+    },
+    {
+        questionNumber: 51,
+        questionText: "Are you more religious",
+        positiveAnswer: "I'm more",
+        negativeAnswer: "I'm less",
+        positiveFormulation: "are more religious",
+        negativeFormulation: "are less religious"
+    },
+    {
+        questionNumber: 52,
+        questionText: "Are you more optimistic",
+        positiveAnswer: "I'm more",
+        negativeAnswer: "I'm less",
+        positiveFormulation: "are more optimistic",
+        negativeFormulation: "are less optimistic"
+    },
+    {
+        questionNumber: 53,
+        questionText: "Are you more socialist",
+        positiveAnswer: "I'm more",
+        negativeAnswer: "I'm less",
+        positiveFormulation: "are more socialist",
+        negativeFormulation: "are less socialist"
+    },
+    {
+        questionNumber: 54,
+        questionText: "Do you dress better",
+        positiveAnswer: "better",
+        negativeAnswer: "worse",
+        positiveFormulation: "dress better",
+        negativeFormulation: "dress worse"
+    },
+    {
+        questionNumber: 55,
+        questionText: "Do you have better handwriting",
+        positiveAnswer: "better",
+        negativeAnswer: "worse",
+        positiveFormulation: "have better handwriting",
+        negativeFormulation: "have worse handwriting"
+    },
+    {
+        questionNumber: 56,
+        questionText: "Do you have sex more often",
+        positiveAnswer: "more",
+        negativeAnswer: "less",
+        positiveFormulation: "have sex more often",
+        negativeFormulation: "have sex less often"
+    },
+    {
+        questionNumber: 57,
+        questionText: "Are you wealthier",
+        positiveAnswer: "I'm wealthier",
+        negativeAnswer: "I'm less wealthy",
+        positiveFormulation: "are wealthier",
+        negativeFormulation: "are less wealthy"
+    },
+    {
+        questionNumber: 58,
+        questionText: "Are you a better partner ",
+        positiveAnswer: "I'm better",
+        negativeAnswer: "I'm worse",
+        positiveFormulation: "are a better partner ",
+        negativeFormulation: "are a worse partner "
+    },
+    {
+        questionNumber: 59,
+        questionText: "Are you more honest",
+        positiveAnswer: "I'm more",
+        negativeAnswer: "I'm less",
+        positiveFormulation: "are more honest",
+        negativeFormulation: "are less honest"
+    },
+    {
+        questionNumber: 60,
+        questionText: "Are you more empathetic",
+        positiveAnswer: "I'm more",
+        negativeAnswer: "I'm less",
+        positiveFormulation: "are more empathetic",
+        negativeFormulation: "are less empathetic"
+    },
+    {
+        questionNumber: 61,
+        questionText: "Are you braver",
+        positiveAnswer: "I'm braver",
+        negativeAnswer: "I'm less brave",
+        positiveFormulation: "are braver",
+        negativeFormulation: "are less brave"
+    },
+    {
+        questionNumber: 62,
+        questionText: "Do you drink more water",
+        positiveAnswer: "I drink more",
+        negativeAnswer: "I drink less",
+        positiveFormulation: "drink more water",
+        negativeFormulation: "drink less water"
+    },
+    {
+        questionNumber: 63,
+        questionText: "Do you worry more",
+        positiveAnswer: "more",
+        negativeAnswer: "less",
+        positiveFormulation: "worry more",
+        negativeFormulation: "worry less"
+    },
+    {
+        questionNumber: 64,
+        questionText: "Are you more punctual",
+        positiveAnswer: "I'm more",
+        negativeAnswer: "I'm less",
+        positiveFormulation: "are more punctual",
+        negativeFormulation: "are less punctual"
+    },
+    {
+        questionNumber: 65,
+        questionText: "Do you use social media more",
+        positiveAnswer: "more",
+        negativeAnswer: "less",
+        positiveFormulation: "use social media more",
+        negativeFormulation: "use social media less"
+    },
+    {
+        questionNumber: 66,
+        questionText: "Are you lazier",
+        positiveAnswer: "I'm lazier",
+        negativeAnswer: "I'm less lazy",
+        positiveFormulation: "are lazier",
+        negativeFormulation: "are less lazy"
+    },
+    {
+        questionNumber: 67,
+        questionText: "Are you more extroverted",
+        positiveAnswer: "I'm more",
+        negativeAnswer: "I'm less",
+        positiveFormulation: "are more extroverted",
+        negativeFormulation: "are less extroverted"
+    },
+    {
+        questionNumber: 68,
+        questionText: "Are you more loved",
+        positiveAnswer: "I'm more",
+        negativeAnswer: "I'm less",
+        positiveFormulation: "are more loved",
+        negativeFormulation: "are less loved"
+    },
+    {
+        questionNumber: 69,
+        questionText: "Are you more annoying",
+        positiveAnswer: "I'm more",
+        negativeAnswer: "I'm less",
+        positiveFormulation: "are more annoying",
+        negativeFormulation: "are less annoying"
+    },
+    {
+        questionNumber: 70,
+        questionText: "Do you cry more",
+        positiveAnswer: "more",
+        negativeAnswer: "less",
+        positiveFormulation: "cry more",
+        negativeFormulation: "cry less"
+    },
+    {
+        questionNumber: 71,
+        questionText: "Are you more perceptive",
+        positiveAnswer: "I'm more",
+        negativeAnswer: "I'm less",
+        positiveFormulation: "are more perceptive",
+        negativeFormulation: "are less perceptive"
+    },
+    {
+        questionNumber: 72,
+        questionText: "Are you more sensitive",
+        positiveAnswer: "I'm more",
+        negativeAnswer: "I'm less",
+        positiveFormulation: "are more sensitive",
+        negativeFormulation: "are less sensitive"
+    },
+    {
+        questionNumber: 73,
+        questionText: "Are you more fulfilled",
+        positiveAnswer: "I'm more",
+        negativeAnswer: "I'm less",
+        positiveFormulation: "are more fulfilled",
+        negativeFormulation: "are less fulfilled"
+    },
+    {
+        questionNumber: 74,
+        questionText: "Are you more important",
+        positiveAnswer: "I'm more",
+        negativeAnswer: "I'm less",
+        positiveFormulation: "are more important",
+        negativeFormulation: "are less important"
+    }
 ];
